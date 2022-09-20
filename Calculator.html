@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Calculator </title>
+
+        <style>
+            table{
+                width: 50%;
+                margin: auto;
+                border: 3px solid;
+               
+                border-radius:5px;
+            }
+
+            td{
+                height: 35px;
+                
+                text-align: center;
+                vertical-align: middle;
+                border-radius:5px;
+            }
+
+            #i1{
+                text-align: left;
+            }
+
+            #p1{
+                text-align: right;
+            }
+
+            #p2{
+                background-color: red;
+            }
+
+            #p3{
+                background-color: green;
+            }
+
+            .text{
+                background-color: #bbb;
+            }
+
+            td:hover{
+                background-color: black;
+                color: white;
+                font-size: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <b>
+        <table border="3px solid">
+
+            <tr>
+                <td colspan="11"></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td colspan="10" id="p1"> 0 </td>
+            </tr>
+
+            <tr>
+                <td class="text"> mod </td>
+                <td id="i1"colspan="5"> 
+                    <input type="radio" name="select"> deg
+                    <input type="radio" name="select"> rad
+                </td>
+                <td class="text"> MC </td>
+                <td class="text"> MR </td>
+                <td class="text"> MS </td>
+                <td class="text"> M+ </td>
+                <td class="text"> M- </td>
+            </tr>
+
+            <tr>
+                <td class="text"> sinh </td>
+                <td class="text"> cosh </td>
+                <td class="text"> tanh </td>
+                <td class="text"> Exp </td>
+                <td class="text"> ( </td>
+                <td class="text"> ) </td>
+                <td colspan="2" id="p2"> Arrow </td>
+                <td id="p2"> C </td>
+                <td id="p2"> +/- </td>
+                <td class="text"> </td>
+            </tr>
+
+            <tr class="text">
+                <td> sinh <sup> -1 </sub> </td>
+                <td> cosh <sup> -1 </sub> </td>
+                <td> tanh <sup> -1 </sub> </td>
+                <td> log  <sub> 2 </sub> x </td>
+                <td> in </td>
+                <td> log </td>
+                <td> 7 </td>
+                <td> 8 </td>
+                <td> 9 </td>
+                <td> / </td>
+                <td> % </td>
+            </tr>
+
+            <tr class="text">
+                <td> pi </td>
+                <td> e </td>
+                <td> n! </td>
+                <td> log  <sub> y </sub> x </td>
+                <td> e    <sup> x </sup> </td>
+                <td> 10   <sup> x </sup> </td>
+                <td> 4 </td>
+                <td> 5 </td>
+                <td> 6 </td>
+                <td> * </td>
+                <td> 1/x </td>
+            </tr>
+
+            <tr>
+                <td class="text"> sin </td>
+                <td class="text"> cos </td>
+                <td class="text"> tan </td> 
+                <td class="text"> x   <sup> y </sup> </td>
+                <td class="text"> x   <sup> 3 </sup> </td>
+                <td class="text"> x   <sup> 2 </sup> </td>
+                <td class="text"> 1 </td>
+                <td class="text"> 2 </td>
+                <td class="text"> 3 </td>
+                <td class="text"> - </td>
+                <td rowspan="2" id="p3"> = </td>
+            </tr>
+
+            <tr class="text">
+                <td> sin <sup> -1 </sub> </td>
+                <td> cos <sup> -1 </sub> </td>
+                <td> tan <sup> -1 </sub> </td>
+                <td> y   <sub> v  </sub> </td>
+                <td> 3   <sub> v  </sub> </td>
+                <td> |x| </td>
+                <td colspan="2"> 0 </td>
+                <td> . </td>
+                <td> + </td>
+            </tr>
+        </table>
+    </b>
+    </body>
+</html>
